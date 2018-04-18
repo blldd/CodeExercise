@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
-# function   : calculate the minEditDistance of two strings
-# author     : Chicho
-# date       : 2016-12-31
+
+
 
 
 def minEditDist(sm, sn):
