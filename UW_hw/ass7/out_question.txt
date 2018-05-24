@@ -1,0 +1,18 @@
+Q:
+Is it an animal?
+Q:
+Does it hop?
+Q:
+Does it have long ears
+A:
+rabbit
+A:
+frog
+A:
+dog
+Q:
+Can it make a call?
+A:
+iphone
+A:
+computer
