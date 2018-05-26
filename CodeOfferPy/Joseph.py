@@ -28,6 +28,14 @@ class Solution(object):
                 cnt -= 1
         return i
 
+    def lastRemainFormula(self, n, m):
+        if n < 1 or m < 1:
+            return -1
+        last = 0
+        for i in range(2, n + 1):
+            last = (last + m) % i
+        return last
+
 
 '''
     public int LastRemaining_Solution(int n, int m) {
@@ -60,4 +68,7 @@ if __name__ == '__main__':
     path = ["b", "c", "c", "e"]
 
     print(Solution().lastRemain(5, 3))
+    print("^^^^^^^^^^^^^^^^^^^^^^")
+    print(Solution().lastRemainFormula(5, 3))
+
     # print(Solution().dp_probability(3, 18))
