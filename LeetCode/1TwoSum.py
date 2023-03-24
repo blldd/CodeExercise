@@ -66,6 +66,6 @@ class Solution(object):
 
 if __name__ == '__main__':
     nums = [3, 1, 2]
-    target = 6
+    target = 5
     print(Solution().twoSum(nums, target))
 

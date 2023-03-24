@@ -39,10 +39,10 @@ class Solution(object):
 
             if prices[i] < min_price:
                 min_price = prices[i]
-
+        print(dp)
         return dp[-1]
 
 
 if __name__ == '__main__':
-    # print Solution().maxProfit([7, 1, 5, 3, 6, 4])
-    print(Solution().maxProfit([7, 6, 4, 3, 1]))
+    print(Solution().maxProfit([7, 1, 5, 3, 6, 4]))
+    # print(Solution().maxProfit([7, 6, 4, 3, 1]))
